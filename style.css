@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+}
+.header{
+    max-width: 1440px;
+    height: 1024px;
+    background-color: #202C36;
+}
+.nav{
+    max-width: 1440px;
+    height: 80px;
+    background-color: #2B3844;
+    display: flex;
+}
+.text{
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32.74px;
+    color: white;
+    margin-top: 23px;
+    margin-left: 81px;
+}
+.tex{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.82px;
+    text-align: left;
+    color: white;
+    margin-top: 28px;
+    margin-left: 900px;
+}
+.container{
+    margin: 0 auto;
+}
+.kol{
+    width: 480px;
+    height: 56px;
+    margin-top: 128px;
+    margin-left: 80px;
+    background-color: #2B3844;
+    text-shadow: 0px 2px 9px 0px #0000000E;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: white;
+    text-align: center;
+    align-content: center;
+}
+.flagi{
+    width: 264px;
+    height: 160px;
+    border-radius: 5px;
+}
+.papa{
+    width: 1280px;
+    height: 336px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+@media (max-width:834px){
+    .kol{
+        width: 768px;
+        height: 101px;
+
+    }
+}
+@media (max-width:375px){
+    .header{
+        width: 375px;
+        height: 3305px;
+    }
+    .kol{
+        width: 343px;
+        height: 48px;
+    }
+}
